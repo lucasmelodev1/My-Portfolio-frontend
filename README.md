@@ -11,7 +11,6 @@
 ![photo4](/src/img/readme4.jpg?raw=true)
 
 ## Objective
-<hr>
 ### Show my frontend skills
 ### Use an user-friendly interface to show my backend skills
 
