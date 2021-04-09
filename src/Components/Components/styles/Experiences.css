@@ -1,0 +1,36 @@
+.Experience {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8vh;
+  padding-bottom: 5vh;
+  z-index: 0;
+  background-image: url('../../../img/background2.jpg');
+  width: 100vw;
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.Experience-title {
+  position: relative;
+  z-index: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 4rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.experiences {
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+:root {
+  --header-height: 9rem;
+}
+
+.Header {
+  height: var(--header-height);
+  padding: 0 15vw;
+  margin: -.8rem -.8rem 0 -.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 3px 4px 0px rgba(0,0,0,0.39);
+  background-color: #1f2023;
+  position: relative;
+  z-index: 1;
+}
+
+.Header-buttons button {
+  background-color: transparent;
+  font-size: 2rem;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  border: none;
+  padding: 0 2rem;
+  height: var(--header-height);
+  outline: none;
+  transition: .2s ease-in-out;
+}
+
+.Header-buttons button:hover {
+  transition: .2s ease-in-out;
+  filter: brightness(0.5);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px){
+  .Header-buttons button {
+    font-size: 1.6rem;
+  }
+
+  .Header {
+    padding: 0 5vw;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .Header-buttons {
+    display: none;
+  }
+
+  .Header {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,31 @@
+.Header {
+  position: relative;
+  z-index: 3;
+}
+
+.Body {
+  position: relative;
+}
+
+::-webkit-scrollbar {
+  position: relative;
+  width: 1.4rem;
+  box-shadow: -7px 0px 5px 0px rgba(0,0,0,0.75);
+  z-index: 3;
+}
+
+::-webkit-scrollbar-button {
+  height: .5rem;
+  background-color: #3d3d3d;
+}
+
+::-webkit-scrollbar-track {
+  background: #3d3d3d;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2rem;
+  background: #1f2023;
+  margin: 3px;
+  border: 3px solid #3d3d3d;
+}

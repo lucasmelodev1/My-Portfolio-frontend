@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+h1 {
+  margin: 0;
+}
+
+.Body {
+  margin: 0 -.8rem;
+  z-index: 0;
+}
+
+
+
+
+.Technology {
+  position: relative;
+  z-index: 1;
+  box-shadow: 1px -4px 4px 0px rgba(0,0,0,0.39);
+  padding: 8rem 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Technology-title {
+  font-family: 'Dosis', sans-serif;
+  font-size: 4rem;
+  color: #212121;
+}
+
+.technologies-images {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.technologies-images img {
+  height: 12vw;
+  margin: 5rem 5rem;
+  padding: 10rem 0;
+  transition: .5s ease-in-out;
+}
+
+.technologies-images img:hover {
+  transition: .5s ease-in-out;
+  transform: scale(1.2);
+}
+
+.technologies-images .go-icon {
+  height: 8vw;
+}
+
+
+@media screen and (max-width: 380px) {
+  .Experience-title h1 {
+    font-size: 5rem;
+  }
+  .Technology-title h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  .technologies-images img {
+    padding: 0;
+    margin: 3rem;
+    height: 20vw;
+  }
+  .technologies-images .go-icon{
+    height: 12vw;
+    margin: 3rem;
+  }
+}
+
+@media screen and (max-width: 580px){
+  .About {
+    padding-top: 20vh;
+  }
+  
+  .about-header {
+    flex-direction: column-reverse;
+  }
+
+  .about-header h3 {
+    text-align: center;
+  }
+
+  .medias {
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .medias h3 {
+    display: none;
+  }
+
+  .about-header img {
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+
+  .Technology-title {
+    font-size: 3rem;
+  }
+}

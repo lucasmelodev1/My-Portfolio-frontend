@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200&display=swap');
+
+.Footer {
+  background-color: #3d3d3d;
+  outline-width: 100vw;
+  max-width: 100%;
+  padding: 3rem 15vw;
+  margin: 0 -.8rem -.8rem -.8rem;
+  font-family: 'Source Serif Pro', serif;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  color: #ededed;
+  font-size: 1.2rem;
+}
+
+.Footer .name h2 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.Footer .number {
+  padding: 0 4rem;
+}
+
+.Footer .number h2, .Footer .email h2{
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.Footer .number h3, .Footer .email h3{
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.Footer .number, .Footer .email {
+  margin: auto;
+}
+
+.Footer .info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.Footer .email {
+  margin: 0;
+}
+
+@media screen and (max-width: 400px) {
+  .name {
+    display: none;
+  }
+  .Footer {
+    padding: 2rem 1rem;
+  }
+  .info .email h3 {
+    font-size: .8rem;
+  }
+  .info .number {
+    padding: 0;
+    margin-right: 1rem;
+  }
+}
