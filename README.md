@@ -11,7 +11,4 @@
 ![photo4](/src/img/readme4.jpg?raw=true)
 
 ## Objective
-### Show my frontend skills
-### Use an user-friendly interface to show my backend skills
-
-## I know, it has a lot to upgrade, but for now, i think i'm doing a good job
+### Test my frontend skills
